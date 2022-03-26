@@ -61,4 +61,9 @@ Setelah itu jalankan command
 php artisan serve
 ```
 
-Silahkan buka url `http://localhost:8000` di browser
+Silahkan buka url `http://localhost:8000` di browser  
+
+Untuk menjalankan test, silahkan run command berikut
+```bash
+php artisan test
+```
