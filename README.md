@@ -4,6 +4,7 @@
 |--|--|
 | PHP | ^8.0.2 |
 | Laravel | ^9.2 |
+| Composer | ^2.x |
 
 ## Routes
 ```
