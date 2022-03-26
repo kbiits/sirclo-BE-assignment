@@ -1,0 +1,112 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #222831;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.login-box form > div {
+    margin-bottom: 30px;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input.always-focus ~ label,
+.login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+}
+
+.login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+}
+
+button[type="submit"] {
+    display: block;
+    margin: 20px auto 0;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: #eee;
+    font-weight: 700;
+    box-shadow: 1.3px 0.4px 6px 1px #aaa;
+
+    background: #207cca; /* Old browsers */
+    transition: 0.2s transform ease-in-out;
+}
+button[type="submit"]:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.error-msg {
+    width: 100%;
+    margin-top: 0.75rem;
+    font-size: 0.875em;
+    font-weight: 500;
+    color: #dc3545;
+    display: block;
+}
