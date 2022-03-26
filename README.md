@@ -37,7 +37,7 @@ cd sirclo-BE-assignment
 composer install
 cp .env.example .env
 ```
-Setelah itu, harap ganti / ubah value dari DB_CONNECTION, DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME dan DB_PASSWORD yang ada di file .env. Sesuaikan dengan database masing-masing.
+Setelah itu, harap ganti / ubah value dari DB_CONNECTION, DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME dan DB_PASSWORD yang ada di file .env. Sesuaikan dengan database masing-masing. Jika belum ada databasenya, harap buat terlebih dahulu dan sesuaikan nama database tersebut dengan DB_DATABASE yang ada di .env
 
 Generate application key  
 ```bash
